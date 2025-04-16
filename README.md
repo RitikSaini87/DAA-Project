@@ -1,22 +1,36 @@
-# 🛫 Flight Route Planner - Dijkstra's Algorithm with GUI & Graph Visualization
+# ✈️ Flight Route Planner using Dijkstra's Algorithm
 
-This Python project is a **Flight Route Planner** that calculates the **cheapest route between Indian cities** using **Dijkstra's Algorithm**. It provides a **graphical user interface (GUI)** using Tkinter and visually displays the shortest path using **NetworkX and Matplotlib**.
-
----
-
-## 🔧 Features
-
-- GUI-based selection of departure and arrival cities
-- Calculates the shortest path using Dijkstra’s algorithm
-- Displays route and total cost
-- Visual graph highlighting the cheapest flight path
-- Cities and routes are customizable
+This Python project is a GUI-based Flight Route Planner that helps users find the **cheapest flight path** between major Indian cities using **Dijkstra's algorithm**. The application provides an interactive interface built with **Tkinter**, and visualizes the graph using **Matplotlib** and **NetworkX**.
 
 ---
 
-## 🛠️ Requirements
+## 📌 Features
 
-Make sure you have the following Python libraries installed:
+- 🧠 **Shortest Path Calculation** using Dijkstra's Algorithm
+- 🌍 Graph-based flight route visualization
+- 📍 Selectable source and destination cities via radio buttons
+- 💰 Displays total cost of the shortest flight route
+- 🖼️ Interactive GUI built with Tkinter
+- 📊 Visual representation using NetworkX & Matplotlib
 
-```bash
-pip install matplotlib networkx
+---
+
+## 🛠️ Technologies Used
+
+- Python 3.x
+- Tkinter – GUI framework
+- NetworkX – Graph representation
+- Matplotlib – Data visualization
+- heapq – Priority Queue for Dijkstra's Algorithm
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/flight-route-planner.git
+   cd flight-route-planner
+
+
+
